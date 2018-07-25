@@ -1,0 +1,244 @@
+/**{
+	border: solid 1px red;
+}*/
+
+body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0px;
+}
+
+table, th, td{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px;
+}
+
+td{
+	padding: 20px;
+	text-align: justify;
+} 
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.background{
+	background-image: url(../images/background.png);
+	background-size: cover;
+}
+
+.header{
+	position: relative;
+}
+
+.portada {
+	color: white;
+	padding: 20px;
+	height: 500px;
+}
+
+.portada button{
+	margin-bottom: 70px; 
+}
+
+.titulo{
+	font-family: 'Montserrat', sans-serif;	
+	font-size: 70px;
+	margin-bottom: 0px;
+	margin-top: 70px;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+
+.tittle-a{
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+.tittle-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu li:before{
+	content: '∘';
+	font-size: 30px;
+	line-height: 20px;
+	color: white;
+/*	vertical-align: baseline;*/
+}
+
+.menu a{
+	text-decoration: none;
+	color: white;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.boton{
+	background: #fd324e;
+	color: white;
+	padding: 8px 20px;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	background: linear-gradient(to left, #fd324e, #ff7250)
+}
+
+.guitarras{
+	color: #1f313c;
+	margin-bottom: 60px; 
+}
+
+.guitarras h2 {
+	font-size: 35px
+}
+
+.guitarra{
+	margin: 10px 10px 30px 10px;
+	padding: 10px;
+	border: 1px solid #1f313c;
+	border-radius: 10px;
+}
+
+.guitarra ol{
+	padding: 0px;
+}
+
+.derecha img{
+	float: right;
+	position: relative;
+	top: -127px;
+}
+
+.izquierda img{
+	float: left;
+	position: relative;
+
+}
+
+.guitarra.izquierda{
+	height: 210px;
+}
+
+.contenedor-guitarra-a {
+	margin-right: 0px;
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 350px;
+	position: relative;
+	bottom: 80px;
+}
+
+.footer{
+	background-color: #273b47;
+	padding: 20px 0 10px 0;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 200px;
+}
+.contacto img{
+	display: block;
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+
+.formulario{
+	display: flex;
+	width: 450px;
+	color: white;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+	width: 200px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.col2 textarea {
+	margin: 0;
+	height: 120px;
+	width: 220px;
+}
+
+.col2 .boton{
+	margin-top: 10px;
+}
+
+.intereses label{
+	font-size: 14px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+.tabla{
+	margin: 50px 0;
+}
